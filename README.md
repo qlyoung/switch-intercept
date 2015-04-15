@@ -36,7 +36,7 @@ Use
 
 * ```<victim>```    is the local IP address of the victim (e.g. 192.168.1.101)
 
-* ```<gateway>```   is the local IP address of the victim's default gateway (e.g. 192.168.1.1)\
+* ```<gateway>```   is the local IP address of the victim's default gateway (e.g. 192.168.1.1)
 
 * ```<logfile>```   is the path of the file to log intercepted HTTP packets to (e.g. mitmdump-outfile.dump)
 
@@ -45,7 +45,7 @@ The live- variant will launch mitmproxy for live traffic auditing. Note that usi
 all intercepted traffic being kept in memory for the duration of the session, so it isn't suited for long-term monitoring.
 
 The passive- variant will launch mitmdump, which will write a summary of each intercepted packet to stdout and log (append) full
-packets to <logfile>.
+packets to ```<logfile>```.
 
 Notes
 -----
