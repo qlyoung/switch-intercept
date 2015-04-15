@@ -18,7 +18,8 @@ Doing this by hand against an active target will probably result in them noticin
 while you get all the pieces in place. This script bundles all the necessary setup and teardown together to make
 this easier and, more importantly, much faster.
 
-For more information about mitmproxy, see http://mitmproxy.org/doc/config.html).
+For more information about mitmproxy, see http://mitmproxy.org/doc/config.html.
+
 For more information on this particular attack, see https://en.wikipedia.org/wiki/ARP_spoofing.
 
 Dependencies
